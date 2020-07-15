@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/surveyCss.css">
+</head>
+<body>
+    <div id="main">
+        <div>
+            <h1 id="title">Market Survey Form on Daily consumption of coffee </h1>
+            <p id="description"> Thank you for taking your time to help us keep track of the level of caffeine consumption</p>
+        </div>
+        <section>
+            <div>
+                <form id="survey-form">
+                    <div id="grp-name">
+                        <label id="name-label">Name</label><br/>
+                             <input type="text" name="enter-name"   id="name" placeholder="Enter Name" required><br/>
+                    </div>
+                    <div id="grp-email">
+                        <label id="email-label">Email</label><br/>
+                            <input type="email" name="enter-name" id="email" placeholder="Enter email" required><br/>
+                    </div>
+                    <div id="number-grp">
+                        <label id="number-label">Number</label><br/>
+                            <input type="number" max="10" min="1" name="enter-name" id="number" placeholder="Enter phone number" required><br/>
+                    </div>
+                    <div id="grp-dropdown">
+                       <label>Which do you prefer, Tea or Coffee</label><br/>
+                            <select id="dropdown">
+                                <option 1>Tea</option>
+                                <option 2>Coffee</option>
+
+                            </select><br/>
+                    </div>
+                        <section>
+                            <div>which do you prefer?</div>
+                            <div>
+                                <input type="radio" value="creamer" id="creamer" name="milk-coffee" checked>
+                                <label for="creamer">Coffee Creamer</label> <br/>
+                            </div>
+                            <div>              
+                                <input type="radio" value="milk" id="milk" name="milk-coffee">
+                                <label for="milk">Milk</label><br/>
+                            </div>  
+                        </section>
+                        <section>
+                            <div>Take out or Eating?</div>
+                            <div>
+                                <input type="checkbox" value="Take-out" id="take-out" checked>
+                                <label for="take-out">Take-out</label> <br/>
+                            </div>
+                            <div>              
+                                <input type="checkbox" value="eating" id="eating">
+                                <label for="eating">Eating</label><br/>
+                            </div>  
+                        </section>
+                        <div id="textarea">
+                            <label for="add-info"> Additional Request or information?</label><br/>
+                            <textarea id="add-info" rows="10" cols="50" name="textarea">Do not add sweetner....</textarea>
+                        </div>
+                        <div id="grp-submit">
+                            <button id="submit">Submit</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
