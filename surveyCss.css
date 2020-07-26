@@ -32,29 +32,29 @@
     border-radius: 5px;
     width: 700px;
     border: 1px thin rgb(90, 66, 22)2, 20, 16);
-    padding: 10px 0px 20px 2px;
-    
+    padding: 10px 0px 5px 2px;
+    font-size: 1rem;
 }
 #number{
     border-radius: 5px;
     width: 700px;
     border: 1px thin rgb(90, 66, 22)2, 20, 16);
-    padding: 10px 0px 20px 2px;
-    
+    padding: 10px 0px 5px 2px;
+    font-size: 1rem;
 }
 #email{
     border-radius: 5px;
     width: 700px;
     border: 1px thin rgb(90, 66, 22)2, 20, 16);
-    padding: 10px 0px 20px 2px;
-
+    padding: 10px 0px 5px 2px;
+    font-size: 1rem;
 }
 #dropdown{
     border-radius: 5px;
     width: 700px;
     border: 1px thin rgb(90, 66, 22)2, 20, 16);
-    padding: 10px 0px 20px 2px;
-    
+    padding: 10px 0px 5px 2px;
+    font-size: 2rem;
 }
 #grp-name{
     padding-top: 0px;
@@ -91,9 +91,13 @@ section{
 }
 
 ::placeholder{
-    font-size: 1.5em;
     opacity: 0.5;
 }
 #add-info{
     font-size: 1.5em;
+}
+.tea-coffee{
+    padding: 10px 0px 5px 2px;
+    font-size: 1.5rem;
+    
 }
